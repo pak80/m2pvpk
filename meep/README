@@ -5,7 +5,7 @@ scripts help for more information.
 
 The result is readable/usable by Paraview.
 
-The script is not very smart, but works fine if everything is set up for
+The script is not very smart, but works fine for me if everything is set up
 it correctly.
 
 Meep:      http://ab-initio.mit.edu/wiki/index.php/Meep
