@@ -1,0 +1,3 @@
+          <Attribute Name="___SCALARNAME___" AttributeType="Scalar" Center="Node">
+            <DataItem Format="___DFORMAT___" NumberType="Float" Precision="4" Dimensions="___GRIDXYZ___">___SCALARDATA___</DataItem>
+          </Attribute>

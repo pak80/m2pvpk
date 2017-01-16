@@ -1,0 +1,7 @@
+This ctl file runs a trivial meep simulation and stores data
+that can be processed by m2pvpk_meep.bash
+
+Note that neither of the P.name or P.xdmflist files here are
+necessary, since they have values equal to the guessed and/or 
+default ones used by m2pvpk_meep.bash - they are included here 
+only as examples of what might be used.

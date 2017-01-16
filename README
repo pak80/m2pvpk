@@ -1,0 +1,15 @@
+M2PVPK
+
+Paul Kinsler
+
+
+This project contains scripts for generating xdmf files usable by
+ParaView, based on the output of 3D meep simulations or mpb calculations.
+
+They are bash shell scripts which do a lot of unix stream editing
+to turn templates into a complete (or at least workable) xdmf file.
+
+Meep:      http://ab-initio.mit.edu/wiki/index.php/Meep
+XDMF:      http://www.xdmf.org/index.php/Main_Page
+ParaView:  http://www.paraview.org/
+

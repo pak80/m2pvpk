@@ -1,0 +1,14 @@
+Here are scripts for generating an xdmf file that interprets a collection 
+of meep-produced h5 fields (hdf5 files). At the moment the h5 files need
+to be a particular set of files, a single file is not supported. See the 
+scripts help for more information.
+
+The result is readable/usable by Paraview.
+
+The script is not very smart, but works fine if everything is set up for
+it correctly.
+
+Meep:      http://ab-initio.mit.edu/wiki/index.php/Meep
+XDMF:      http://www.xdmf.org/index.php/Main_Page
+ParaView:  http://www.paraview.org/
+

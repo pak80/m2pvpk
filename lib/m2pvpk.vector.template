@@ -1,0 +1,14 @@
+          <Attribute Name="___VECTORNAME___" AttributeType="Vector" Center="Node">
+            <DataItem ItemType="Function" Dimensions="___GRIDXYZ___ 3"
+                  Function="JOIN( $2, $1, $0 )">
+              <DataItem Dimensions="___GRIDXYZ___" NumberType="Float" Format="___DFORMAT___">
+                ___VECTORDATAX___
+              </DataItem>
+              <DataItem Dimensions="___GRIDXYZ___" NumberType="Float" Format="___DFORMAT___">
+                ___VECTORDATAY___
+              </DataItem>
+              <DataItem Dimensions="___GRIDXYZ___" NumberType="Float" Format="___DFORMAT___">
+                 ___VECTORDATAZ___
+              </DataItem>
+            </DataItem>
+          </Attribute>
