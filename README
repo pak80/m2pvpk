@@ -15,3 +15,6 @@ Meep:      http://ab-initio.mit.edu/wiki/index.php/Meep
 XDMF:      http://www.xdmf.org/index.php/Main_Page
 ParaView:  http://www.paraview.org/
 
+These scripts incorporate a fix for a data-format error in the files
+MPB creates when using MPI -- see the mpb/README.
+

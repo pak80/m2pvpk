@@ -2,7 +2,7 @@
 # Paul Kinsler 2016+
 #
 echo "$0: This script simply makes some links in the home directories"
-echo "    bin and lib to the actual location of the files - i.e. where 
+echo "    bin and lib to the actual location of the files - i.e. where"
 echo "    this script is run from."
 
 CORENAME=m2pvpk

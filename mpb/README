@@ -1,0 +1,22 @@
+Here are scripts for generating an xdmf file that interprets a collection 
+of mpb-produced h5 fields (hdf5 files). At the moment the h5 files need
+to be a particular set of files, a single file is not supported. See the 
+scripts help for more information.
+
+The result is readable/usable by Paraview.
+
+The script is not very smart, but works fine if everything is set up for
+it correctly.
+
+MPB:       http://ab-initio.mit.edu/wiki/index.php/MIT_Photonic_Bands
+XDMF:      http://www.xdmf.org/index.php/Main_Page
+ParaView:  http://www.paraview.org/
+
+These scripts incorporate a fix for a data-format error in the files
+MPB creates when using MPI, which only occur on some of my machines
+(the flag BAD_SILENCE). It seems to be hardware dependent, and involves
+the swapping of vector components; I haven't been able to track it but
+assume some part of a compile process (whether in MPB or an underlying
+library) makes a wrong assumption. You can check by running a test 
+MPB calculation in single and MPI versions. 
+
